@@ -13,6 +13,8 @@ object BZ2parquet {
       sys.exit()
     }
 
+    // input: 本地文件路径
+    // output: hdfs://hadoop:8020/output
     val Array(inputPath, outputPath) = args
 
     // 模板代码
