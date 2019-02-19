@@ -28,7 +28,7 @@ public class ConfigurationManager {
         return prop.getProperty(key);
     }
 
-    // TODO 根据配置文件中的value的数据类型不相同, 返回不同的数据类型
+    // 根据配置文件中的value的数据类型不相同, 返回不同的数据类型
     public static Integer getInteger(String key) {
         String value = getProperty(key);
         try {
